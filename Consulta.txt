@@ -1,0 +1,21 @@
+Clases wrapper: Es la representación de los valores primitivos como objetos.
+
+La clase objeto: Java define una clase especial llamada Object que es una superclase implícita de todas las demás clases. En otras palabras, todas las demás clases son 
+                 subclases de Object. Esto significa que una variable de referencia de tipo Object puede referirse a un objeto de cualquier otra clase.
+                
+Excepciones en Java: En Java los errores en tiempo de ejecución (cuando se esta ejecutando el programa) se denominan excepciones, y esto ocurre cuando se produce un error en alguna
+                     de las instrucciones de nuestro programa.
+
+La clase Date, Calendar y GregorianCalendar:   La clase Date, representa como su nombre indica a una fecha. Hoy en día hay mejores opciones que esta clase para manejar fechas, pero es 
+                                               interesante saber como funciona ya que muchos se basan en ella.
+
+                                               La clase Calendar posee una gran cantidad de métodos para operar, consultar y modificar las propiedades de una fecha. Un aspecto principal 
+                                               es que es una clase abstracta y como tal posee algunos métodos que deben ser implementados por sus subclases.
+
+                                               Esta clase es una clase concreta de Calendar y que por otro lado es el sistema de calendario estándar en el mundo, al menos en el mundo occidental 
+                                               que comprende Europa, Norte, Centro y SurAmérica y muchos otros países.
+
+Anotaciones: son metadatos que se pueden asociar a clases, miembros, métodos o parámetros. Nos dan información sobre el elemento que tiene la anotación y permiten definir cómo queremos que sea 
+             tratado por el framework de ejecución. Además, las anotaciones no afectan directamente a la semántica del programa, pero sí a la forma en que los programas son tratados por las 
+             herramientas y librerías.
+
