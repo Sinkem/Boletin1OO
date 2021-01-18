@@ -35,6 +35,6 @@ public class Main {
         persona2.getEdad();
         persona2.getSexo();
 
-        persona1.saludar(persona1, persona2);
+        Persona.saludar(persona1, persona2);
     }
 }

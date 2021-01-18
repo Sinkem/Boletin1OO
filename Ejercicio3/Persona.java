@@ -34,7 +34,7 @@ public class Persona {
         this.sexo = s;
     }
 
-    public void saludar(Persona persona1, Persona persona2) {
+    public static void saludar(Persona persona1, Persona persona2) {
         System.out.println(persona1.nombre + " saluda a " + persona2.nombre);
     }
 
