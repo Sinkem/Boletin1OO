@@ -27,24 +27,15 @@ public class Persona {
     }
 
     public Persona(String n, String a, int e, char s) {
-        Scanner scn = new Scanner(System.in);
 
         this.nombre = n;
-        System.out.println("Introduzca el nombre de la segunda persona: ");
-        n = scn.next();
         this.apellidos = a;
-        System.out.println("Introduzca los apellidos: ");
-        a = scn.next();
         this.edad = e;
-        System.out.println("Introduzca la edad: ");
-        e = scn.nextInt();
-        if (edad <= 0 || edad > 110) {
-            System.out.println("Introduzca una edad valida: ");
-            edad = scn.nextInt();
-        }
         this.sexo = s;
-        System.out.println("Introduzca el sexo: ");
-        s = scn.next().charAt(0);
+    }
+
+    public void saludar(Persona persona1, Persona persona2) {
+        System.out.println(persona1.nombre + " saluda a " + persona2.nombre);
     }
 
     public String getNombre() {
