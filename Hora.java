@@ -10,7 +10,7 @@ public class Hora {
             System.out.println("Pon una hora valida anda");
         }
         this.minutos = minutos;
-        if (minutos > 60 || hora < 0) {
+        if (minutos > 60 || minutos < 0) {
             System.out.println("Pon un minuto valido anda");
         }
         this.segundos = segundos;
@@ -49,6 +49,9 @@ public class Hora {
 
     public void setHora(int hora) {
         this.hora = hora;
+        if (hora > 24 || hora < 0) {
+            System.out.println("Pon una hora valida anda");
+        }
     }
 
     public int getMinutos() {
@@ -57,6 +60,9 @@ public class Hora {
 
     public void setMinutos(int minutos) {
         this.minutos = minutos;
+        if (minutos > 60 || minutos < 0) {
+            System.out.println("Pon un minuto valido anda");
+        }
     }
 
     public int getSegundos() {
@@ -65,6 +71,9 @@ public class Hora {
 
     public void setSegundos(int segundos) {
         this.segundos = segundos;
+        if (segundos > 60 || segundos < 0) {
+            System.out.println("Pon un segundo valido anda");
+        }
     }
 
 }
