@@ -1,4 +1,4 @@
-package Ejercicio6;
+package Ejercicio7;
 
 public class Cuenta {
 

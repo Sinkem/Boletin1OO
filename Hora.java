@@ -1,8 +1,6 @@
-import java.util.Scanner;
-
 public class Hora {
 
-    int hora, minutos, segundos;
+    private int hora, minutos, segundos;
 
     public Hora(int hora, int minutos, int segundos) {
         this.hora = hora;
@@ -19,16 +17,7 @@ public class Hora {
         }
     }
 
-    public void sumarSegundos() {
-        Scanner scn = new Scanner(System.in);
-
-        System.out.println("Introduce los segundos que quieras sumar");
-        int segundosSumados = scn.nextInt();
-        if (segundosSumados < 1) {
-            System.out.println("Pon un numero valido");
-            segundosSumados = scn.nextInt();
-        }
-
+    public void sumarSegundos(int segundosSumados) {
         segundos = segundos + segundosSumados;
 
         while (segundos > 60) {

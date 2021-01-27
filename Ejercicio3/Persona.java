@@ -1,7 +1,5 @@
 package Ejercicio3;
 
-import java.util.Scanner;
-
 public class Persona {
 
     private String nombre, apellidos;
@@ -9,20 +7,10 @@ public class Persona {
     private char sexo;
 
     public Persona() {
-        Scanner scn = new Scanner(System.in);
-
-        System.out.println("Introduzca el nombre de la primera persona: ");
-        nombre = scn.next();
-        System.out.println("Introduzca los apellidos: ");
-        apellidos = scn.next();
-        System.out.println("Introduzca la edad: ");
-        edad = scn.nextInt();
-        if (edad <= 0 || edad > 110) {
-            System.out.println("Introduzca una edad valida: ");
-            edad = scn.nextInt();
-        }
-        System.out.println("Introduzca el sexo: ");
-        sexo = scn.next().charAt(0);
+        nombre = "Agustin";
+        apellidos = "Agusto";
+        edad = 8;
+        sexo = 'H';
 
     }
 

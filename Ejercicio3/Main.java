@@ -36,5 +36,7 @@ public class Main {
         persona2.getSexo();
 
         Persona.saludar(persona1, persona2);
+
+        scn.close();
     }
 }
